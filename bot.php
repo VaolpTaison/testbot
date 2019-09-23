@@ -1,7 +1,7 @@
 <?php
-$confirmation_token = '0eb95f9d';
+$confirmation_token = 'confirmation_token';
 $token = 
-'62069ada9140b027f1cd84c1155df643d6fc180124dc3d63e244ab4b34f25c9cc22a6295b00249d257bc5';
+'token';
 $data = json_decode(file_get_contents('php://input'));
 switch($data->type){
 	case 'confirmation':
